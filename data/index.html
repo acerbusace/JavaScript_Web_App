@@ -1,0 +1,41 @@
+<html>
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Interactive Song!</title>
+        <script src="jquery-1.11.3.js"></script>
+        <script src="useCanvas.js"></script>
+   <style> 
+         body {
+            background: #dddddd;
+         }
+		 
+		 /*element selectors: */
+		 canvas {
+		    margin: 20px;
+			/*important here for padding to be 0 for mouse calculations */
+            padding: 0px; 
+		 }
+		 /* class selectors: */
+		 .canvas {            
+            background: #ffffff;
+            border: thin inset #aaaaaa;
+         }
+
+         /*id selectors: */
+		 
+         #canvas1 {
+         }
+		  
+ 
+      </style>
+
+    </head>
+   
+    <body onload="init()">
+        <canvas id="myCanvas" class='canvas' width="1750" height="1600">
+        </canvas>
+        <input type="text"  id = "textField" name = "textField" value="Name of File.txt" size = "60">
+        <input type="button" value="Open File" onClick="handleOpenButton()">
+        <input type="button" value="Save File" onClick="handleSaveButton()">
+    </body>
+</html>
