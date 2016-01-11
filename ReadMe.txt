@@ -16,11 +16,15 @@
 |                                                                   
 |  STARTING THE SERVER                                              
 |  ═══════════════════                                              
-|                                                                   
-| ☞ First Run CMD from C:\...\JavaScript_Web_App  
-| ☞ Next run "node Cord_Pro_App_Server.js                            
-| ☞ Go to your chosen web browser and type:                         
-|                          *http://localhost:3000/assignment1.html*                               
+|                                      
+| ☞ Download the zip file and extract it to your desired location  
+| ☞ Secondly Run CMD and browse to the project directory 
+|                          "C:\...\JavaScript_Web_App"  
+| ☞ Next run the app:
+|                          type "node Cord_Pro_App_Server.js" 
+|                          into CMD and press enter                           
+| ☞ Go to your chosen web browser and visit:                        
+|                          "http://localhost:3000/start.html"                               
 |
 |
 | 
